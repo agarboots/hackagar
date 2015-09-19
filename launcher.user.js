@@ -984,12 +984,13 @@ console.log("Running Bot Launcher!");
         var debugStrings = [];
         debugStrings.push(window.botList[botIndex].name);
         debugStrings.push("BOOSTER V1 LAUNCHER " + aposLauncherVersion);
+        debugStrings.push("Client Copyright by NiklasStreamt ");
         debugStrings.push("T - Aktiviere den Hack: " + (!toggle ? "AN" : "AUS"));
 	    debugStrings.push("R - Zeige die Linien: " + (!toggleDraw ? "AN" : "AUS"));
 	    debugStrings.push("D - Aktiviere den Darkmode ");
 		debugStrings.push("F - Zeige die Massen an ");
 		debugStrings.push("ESC - Einstellungen für Agario ");
-		debugStrings.push("Client Copyright by NiklasStreamt ");
+		
 		
 
         for (var i = 0; i < botString.length; i++) {
@@ -997,8 +998,8 @@ console.log("Running Bot Launcher!");
         }
 
         debugStrings.push("");
-        debugStrings.push("Best Score: " + ~~(sessionScore / 100));
-        debugStrings.push("Best Time: " + bestTime + " seconds");
+        debugStrings.push("Bestes Score: " + ~~(sessionScore / 100));
+        debugStrings.push("Beste Zeit: " + bestTime + " seconds");
         debugStrings.push("");
         debugStrings.push(serverIP);
 
