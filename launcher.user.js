@@ -16,8 +16,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.*/
 // ==UserScript==
-// @name        BOOSTER V1 LAUNCHER
-// @namespace   BOOSTER V1 LAUNCHER
+// @name       BOOSTER V1 LAUNCHER
+// @namespace  BOOSTER V1 LAUNCHER
 // @include     http://agar.io/*
 // @version     4.124
 // @grant       none
@@ -74,7 +74,7 @@ function getLatestCommit() {
 }
 getLatestCommit();
 
-console.log("BOOSTER V1 LAUNCHER");
+console.log("Running Bot Launcher!");
 (function(d, e) {
 
     //UPDATE
@@ -989,21 +989,21 @@ console.log("BOOSTER V1 LAUNCHER");
 	    debugStrings.push("D - Aktiviere den Darkmode: " + (!toggleDraw ? "AN" : "AUS"));
 		debugStrings.push("F - Zeige die Massen an: " + (!toggleDraw ? "AN" : "AUS"));
 		debugStrings.push("ESC - Einstellungen für Agario ");
- 
+
         for (var i = 0; i < botString.length; i++) {
             debugStrings.push(botString[i]);
         }
 
         debugStrings.push("");
-        debugStrings.push("BESTER SCORE: " + ~~(sessionScore / 100));
-        debugStrings.push("BESTE ZEIT" " + bestTime + " seconds");
+        debugStrings.push("Best Score: " + ~~(sessionScore / 100));
+        debugStrings.push("Best Time: " + bestTime + " seconds");
         debugStrings.push("");
         debugStrings.push(serverIP);
 
         if (getPlayer().length > 0) {
             var offsetX = -getMapStartX();
             var offsetY = -getMapStartY();
-            debugStrings.push("KORDINATEN: " + Math.floor(getPlayer()[0].x + offsetX) + ", " + Math.floor(getPlayer()[0].y + offsetY));
+            debugStrings.push("Location: " + Math.floor(getPlayer()[0].x + offsetX) + ", " + Math.floor(getPlayer()[0].y + offsetY));
         }
 
         var offsetValue = 20;
@@ -1092,7 +1092,7 @@ console.log("BOOSTER V1 LAUNCHER");
                     1;
                 a.fillStyle = "#FFFFFF";
                 c = null;
-                c = Z("DIE BESTEN");
+                c = Z("leaderboard");
                 a.font = "30px Ubuntu";
                 a.fillText(c, 100 - a.measureText(c).width / 2, 40);
                 if (null == A)
