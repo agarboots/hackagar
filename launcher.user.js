@@ -983,7 +983,7 @@ console.log("Running Bot Launcher!");
 
         var debugStrings = [];
         debugStrings.push(window.botList[botIndex].name);
-        debugStrings.push("BOOSTER V1 LAUNCHER " + aposLauncherVersion);
+        debugStrings.push("BOOSTER LAUNCHER " + aposLauncherVersion);
         debugStrings.push("T - Aktiviere den Hack: " + (!toggle ? "AN" : "AUS"));
 	    debugStrings.push("R - Zeige die Linien: " + (!toggleDraw ? "AN" : "AUS"));
 	    debugStrings.push("D - Aktiviere den Darkmode ");
