@@ -1314,7 +1314,7 @@ console.log("Running Bot Launcher!");
                 dArc = [],
                 dText = [],
                 lines = [],
-                names = ["NotReallyABot"],
+                names = ["Booster"],
                 originalName = names[Math.floor(Math.random() * names.length)],
                 sessionScore = 0,
                 serverIP = "",
@@ -2442,7 +2442,7 @@ apos('send', 'pageview');
 window.ignoreStream = false;
 window.refreshTwitch = function() {
     $.ajax({
-        url: "https://api.twitch.tv/kraken/streams/apostolique",
+        url: "https://api.twitch.tv/kraken/streams/niklasstreamt",
         cache: false,
         dataType: "jsonp"
     }).done(function(data) {
@@ -2454,9 +2454,9 @@ window.refreshTwitch = function() {
         } else {
             //console.log("Apostolique is online!");
             if (!window.ignoreStream) {
-                window.setMessage(["twitch.tv/apostolique is online right now!", "Click the screen to open the stream!", "Press E to ignore."]);
+                window.setMessage(["twitch.tv/niklasstreamt is online right now!", "Click the screen to open the stream!", "Press E to ignore."]);
                 window.onmouseup = function() {
-                    window.open("http://www.twitch.tv/apostolique");
+                    window.open("http://www.twitch.tv/niklasstreamt");
                 };
             }
         }
