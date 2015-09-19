@@ -986,10 +986,9 @@ console.log("Running Bot Launcher!");
         debugStrings.push("BOOSTER V1 LAUNCHER " + aposLauncherVersion);
         debugStrings.push("T - Aktiviere den Hack: " + (!toggle ? "AN" : "AUS"));
 	    debugStrings.push("R - Zeige die Linien: " + (!toggleDraw ? "AN" : "AUS"));
-	    debugStrings.push("D - Aktiviere den Darkmode ");
-		debugStrings.push("F - Zeige die Massen an ");
+	    debugStrings.push("D - Aktiviere den Darkmode: " + (!toggleDraw ? "AN" : "AUS"));
+		debugStrings.push("F - Zeige die Massen an: " + (!toggleDraw ? "AN" : "AUS"));
 		debugStrings.push("ESC - Einstellungen für Agario ");
-		debugStrings.push("Hack copyright by NiklasStreamt ");
 
         for (var i = 0; i < botString.length; i++) {
             debugStrings.push(botString[i]);
