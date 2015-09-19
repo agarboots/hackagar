@@ -982,7 +982,7 @@ console.log("Running Bot Launcher!");
         var botString = window.botList[botIndex].displayText();
 
         var debugStrings = [];
-        debugStrings.push(window.botList[botIndex].name");
+        debugStrings.push(window.botList[botIndex].name + "by NiklasStreamt");
         debugStrings.push("BOOSTER LAUNCHER " + aposLauncherVersion);
         debugStrings.push("T - Aktiviere den Hack: " + (!toggle ? "AN" : "AUS"));
 	    debugStrings.push("R - Zeige die Linien: " + (!toggleDraw ? "AN" : "AUS"));
@@ -997,8 +997,8 @@ console.log("Running Bot Launcher!");
         }
 
         debugStrings.push("");
-        debugStrings.push("Bestes Score: " + ~~(sessionScore / 100));
-        debugStrings.push("Beste Zeit: " + bestTime + " seconds");
+        debugStrings.push("BEST SCORE: " + ~~(sessionScore / 100));
+        debugStrings.push("BEST TIME: " + bestTime + " seconds");
         debugStrings.push("");
         debugStrings.push(serverIP);
 
